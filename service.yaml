@@ -6,7 +6,7 @@ spec:
   selector:
     app: demo
   ports:
-      port: 8110
-      targetPort: 8110
-      nodePort: 30002
+      - port: 8110
+        targetPort: 8110
+        nodePort: 30002
   type: NodePort
