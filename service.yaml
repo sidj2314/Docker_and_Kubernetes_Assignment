@@ -8,5 +8,5 @@ spec:
   ports:
       - port: 8110
         targetPort: 8110
-        nodePort: 30002
+        nodePort: 30003
   type: NodePort
